@@ -193,4 +193,29 @@ body {
 
 /* <!-- My next Target Start Here --> */
 
+.next-tartget-content {
+  min-height: 705px;
+  /* border: 2px solid salmon; */
+  margin-bottom: 45px;
+}
+
+.node-target-content,
+.mongodb-target-content,
+.react-target-content {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  min-height: 220px;
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  margin-bottom: 24px;
+  border-radius: 16px;
+}
+
+.node-target-content img,
+.mongodb-target-content img,
+.react-target-content img {
+  width: 95px;
+  height: 85px;
+}
+
 /* <!-- My next Target End Here --> */
