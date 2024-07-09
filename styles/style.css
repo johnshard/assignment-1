@@ -4,6 +4,7 @@
   --htmlcolor: rgba(255, 76, 30, 0.1);
   --cssColor: rgba(0, 77, 230, 0.1);
   --jscolor: rgba(255, 223, 0, 0.1);
+  --footerColor: rgba(13, 19, 33, 0.1);
 }
 
 /* Reset */
@@ -48,6 +49,7 @@ body {
 .common-contents {
   text-align: center;
   line-height: 2rem;
+  margin: 0 97px;
 }
 
 /* Nav Menu */
@@ -219,3 +221,33 @@ body {
 }
 
 /* <!-- My next Target End Here --> */
+
+/* <!-- Support section start --> */
+.support-content {
+  color: #eee;
+  min-height: 215px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.9);
+  background: url(/assets/handshake.jpg) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-blend-mode: overlay;
+  margin-bottom: 80px;
+}
+
+/* <!-- Support section end --> */
+
+/* Footer section */
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer {
+  min-height: 50px;
+  background: var(--footerColor);
+  padding: 12px 0;
+}
