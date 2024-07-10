@@ -86,7 +86,7 @@ body {
 
 /* Hero Section starts*/
 #hero-section {
-  background: url(/assets/Hero-bg.png) no-repeat center center;
+  background: url(../assets/Hero-bg.png) no-repeat center center;
   background-size: cover;
   object-fit: fill;
   min-height: 500px;
@@ -295,7 +295,7 @@ body {
   color: #eee;
   min-height: 285px;
   border-radius: 16px;
-  background: url(/assets/handshake.jpg) no-repeat center;
+  background: url(../assets/handshake.jpg) no-repeat center;
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
   display: flex;
