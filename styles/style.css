@@ -42,12 +42,23 @@ body {
   font-size: 1.2rem;
   font-weight: 300;
 }
+.btn-primary:hover {
+  background-color: #ffffff;
+  transition: 1s;
+  cursor: pointer;
+}
 
 .btn-secondary {
   color: #ffffff;
-  background: #0d1321;
+  background: #36393f;
   font-size: 1.2rem;
   font-weight: 300;
+}
+.btn-secondary:hover {
+  background-color: #000000;
+  border: 1px solid black;
+  transition: 1s;
+  cursor: pointer;
 }
 
 .common-contents {
@@ -57,6 +68,13 @@ body {
 }
 
 /* Nav Menu */
+/* .logo-color {
+  display: inline-block;
+  background: rgb(250, 128, 114);
+  text-align: center;
+  padding: 0 300x;
+  border-radius: 5px;
+} */
 
 .nav-section {
   /* border: 2px solid salmon; */
@@ -87,6 +105,7 @@ body {
 .hero-section-content h1,
 .hero-section-content p {
   margin-bottom: 24px;
+  text-align: center;
 }
 /* Hero Section ends */
 
@@ -131,6 +150,11 @@ body {
   );
   margin-bottom: 32px;
   border-radius: 16px;
+}
+
+.left-align button,
+.right-content button {
+  margin-top: 50px;
 }
 
 .right-content {
