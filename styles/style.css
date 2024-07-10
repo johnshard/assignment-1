@@ -234,9 +234,17 @@ body {
 
 .tech-section {
   /* border: 2px solid green; */
-  padding: 20px;
+  padding: 30px;
   border-radius: 8px;
+  /* display: flex;
+  flex-direction: column; */
 }
+.tech-section img,
+.tech-section h2,
+.tech-section p {
+  margin-bottom: 15px;
+}
+
 .tech-section:nth-of-type(1) {
   /* border: 2px solid green; */
   background: var(--htmlcolor);
@@ -248,6 +256,11 @@ body {
 .tech-section:nth-of-type(3) {
   /* border: 2px solid green; */
   background: var(--jscolor);
+}
+.tech-section a {
+  color: #000000;
+  text-decoration: underline;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 600px) {
@@ -276,6 +289,20 @@ body {
   padding: 40px;
   margin-bottom: 24px;
   border-radius: 16px;
+}
+.mongodb,
+.nodejs,
+.react {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.mongodb a,
+.nodejs a,
+.react a {
+  color: #000000;
+  text-decoration: underline;
+  font-weight: 500;
 }
 
 .node-target-content img,
